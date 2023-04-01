@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  section h3 {
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery a {
+    margin:10px;
+    overflow: hidden;
+    width: 300px;
+    }
+    
+    .gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+    }
+    
+    .gallery a:hover img {
+    transform: scale(1.1);
+    }
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    }
+    
+    label {
+    margin-bottom: 10px;
+    }
+    
+    input,
+    textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+    
+    input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #444;
+    }
+    
+    footer {
+    background-color: #ddd;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    }
+  
